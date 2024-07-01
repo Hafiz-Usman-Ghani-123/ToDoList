@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List </title>
+    <style>
+        body{
+            background-color: antiquewhite;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            padding-top: 10px;
+        }
+        .container{
+            height: 95%;
+            width: 50%;
+            border: 10px solid black;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            /* justify-content: center; */
+            align-items: center;
+        }
+        input{
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 20px;
+
+        }
+        button{
+            padding: 10px;
+            background-color: black;
+            border-radius: 10px;
+            color: aliceblue;
+            font-size: 20px;
+        }
+        ul{
+            height: auto;
+            overflow: auto;
+            padding: 30px;
+            li{
+            font-size: 25px;
+
+            }
+        }
+        .name{
+            padding: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List</h2>
+        <input type="text" name="" id="text" placeholder="Enter what you want...">
+        <button type="button" id="btn">Add</button> 
+        <ul id="list-box"></ul>
+    </div>
+    <div class="name">Created By Usman Ghani</div>
+
+
+    <script src="script.js" ></script>
+</body>
+</html>
